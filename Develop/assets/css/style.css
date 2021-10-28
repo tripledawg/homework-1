@@ -69,7 +69,7 @@ p {  /*moved p tag closer to content class*/
     font-size: 16px;
 }
 
-.search-engine-optimization h2 {
+ h2 {  /*just used h2 instead of a special class*/
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -91,10 +91,11 @@ p {  /*moved p tag closer to content class*/
     margin-right: 25px;
 }
 
-.online-reputation-management h2 {
+/*.online-reputation-management h2 {
     margin-bottom: 20px;
-    font-size: 36px;
-}  
+    font-size: 36px;  
+}  */
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,10 +115,10 @@ p {  /*moved p tag closer to content class*/
 }
 
 
-.social-media-marketing h2 {
+/*.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -147,22 +148,22 @@ p {  /*moved p tag closer to content class*/
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.aside {  /*Instead of having identical and separate classes for box heading and images of Lead, Brand, and Cost I made one aside class*/
     margin-bottom: 32px;
     color: #ffffff;
 }
-.benefit-lead h3 {
+.aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/*  All this is no longer needed
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -198,7 +199,7 @@ p {  /*moved p tag closer to content class*/
     max-width: 150px;
 }
 
-
+*/
 
 .footer {
     padding: 30px;
