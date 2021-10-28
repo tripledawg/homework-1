@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header nav {  /*change from div to nav  ?? now have bulleted list on nav bar??*/ 
+.header nav {  /*div to nav  ?? with just this had bulleted list on nav bar??*/ 
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,7 +32,7 @@ body {
     font-size: 20px;
 }
 
-.header nav ul { /*until I changed these to nav as well.  I now see how confusing it is to have so many div tags*/
+.header nav ul { /* had bullets in nav bar until I changed these to nav as well.  I now see how confusing it is to have so many div tags*/
     list-style-type: none;
   
 }
@@ -47,9 +47,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
 
 .digital-marketing-meeting {   /*changed class name from .hero to .digital-marketing-meeting*/
     height: 800px;
@@ -60,9 +57,45 @@ p {
     background-position: center;
 }
 
-/*moved all styling about main section up so that styling for aside was last*/
+/*moved all styling about main section up so that styling for aside was last* moved content styling up too*/
 
-.search-engine-optimization { /*change # to dot because it is a class*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;  
+}
+
+p {  /*moved p tag closer to content class*/
+    font-size: 16px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.search-engine-optimization { /*tried combining content and section class, made pictures huge, realized those classes I tried to erase were controlling image height; changed # to dot because it is a class then realized all three stylings were redundant and could all be one class name*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;}
+
+.search-engine-optimization img {  /*I moved all header and image styling to be with its corresponsing class*/
+    max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}  
+.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -71,13 +104,19 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+.online-reputation-management img { /*moved header and image styling to be with corresponding class*/
+    max-height: 200px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+.social-media-marketing h2 {
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    font-size: 36px;
 }
 
 .social-media-marketing {
@@ -89,49 +128,14 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
 .social-media-marketing img {
     max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -147,6 +151,17 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 
 .benefit-brand {
     margin-bottom: 32px;
@@ -158,10 +173,7 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 
 .benefit-brand h3 {
     margin-bottom: 10px;
@@ -173,11 +185,6 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
 .benefit-brand img {
     display: block;

@@ -24,23 +24,23 @@
             </ul>
         </nav>
     </header><!--changed <div> tag to semantic header tag-->
-    <div class="digital-marketing-meeting"></div><!--changed name of class here and in css to match name in image file-->
-    <section class="content"><!--changed <div> tag to semantic <section> tag-->
-        <div id="search-engine-optimization" class="search-engine-optimization"> <!--this was a broken internal link so I changed it from a class to an ID because the href tag had a #-->
+   <img class="digital-marketing-meeting"><!--was div with closing tag, now image tag; changed name of class here and in css to match name in image file-->
+    <section class="content"><!--changed <div> tag to semantic <section> tag Could maybe also be <main>??-->
+        <div class="search-engine-optimization"> <!--removed unused ID tag, combined CSS styling into one class called section-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="search engine optimization" class="float-left" /> <!--alt tags added-->
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        <div class="online-reputation-management"> <!--removed unused ID tag and changed class name to section-->
             <img src="./assets/images/online-reputation-management.jpg" alt="online reputation management" class="float-right" /> <!--alt tags added-->
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        <div class="social-media-marketing"> <!--removed unused ID tag and changed class name to section-->
             <img src="./assets/images/social-media-marketing.jpg" alt="social media marketing" class="float-left" /><!--alt tags added-->
             <h2>Social Media Marketing</h2>
             <p>
@@ -49,7 +49,7 @@
         </div>
     </section><!--changed <div> tag to semantic <section> tag-->
     <aside class="benefits"><!--changed <div> tag to semantic <aside> tag-->
-        <div class="benefit-lead">
+        <div class="benefit-lead"><!--maybe change these class names??-->
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
