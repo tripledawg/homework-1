@@ -69,12 +69,12 @@ p {  /*moved p tag closer to content class*/
     font-size: 16px;
 }
 
- h2 {  /*just used h2 instead of a special class*/
+ h2 {  /*just used h2 instead of a special named class*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.search-engine-optimization { /*tried combining content and section class, made pictures huge, realized those classes I tried to erase were controlling image height; changed # to dot because it is a class then realized all three stylings were redundant and could all be one class name*/
+.content-box { /*tried combining content and section class, made pictures huge, realized those classes I tried to erase were controlling image height; changed # to dot because it is a class then realized all three stylings were redundant and could all be one class name*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -82,7 +82,7 @@ p {  /*moved p tag closer to content class*/
     background-color: #0072bb;
     color: #ffffff;}
 
-.search-engine-optimization img {  /*I moved all header and image styling to be with its corresponsing class*/
+.content img {  /*I moved all header and image styling to be with its corresponsing class*/
     max-height: 200px;
 }
 
@@ -90,11 +90,14 @@ p {  /*moved p tag closer to content class*/
     float: left;
     margin-right: 25px;
 }
-
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 /*.online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;  
-}  */
+} 
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -105,21 +108,14 @@ p {  /*moved p tag closer to content class*/
     color: #ffffff;
 }
 
-.online-reputation-management img { /*moved header and image styling to be with corresponding class*/
+.online-reputation-management img { /*moved header and image styling to be with corresponding class
     max-height: 200px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-
-/*.social-media-marketing h2 {
+.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-} */
-
+} 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -136,7 +132,8 @@ p {  /*moved p tag closer to content class*/
 .float-left {
     float: left;
     margin-right: 25px;
-}
+} */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
