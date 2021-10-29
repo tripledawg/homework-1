@@ -1,7 +1,7 @@
 # 01 HTML, CSS, and Git: Code Refactor
 
 **Screenshot**  
-[screenshot](./Develop/_Users_lesliecrouch_bootcamp_homework_homework-1_Develop_index.html.png)
+[screenshot](./assets/_Users_lesliecrouch_bootcamp_homework_homework-1_Develop_index.html.png)
 
 **URL of deployed web page**
 https://tripledawg.github.io/homework-1-refactoring/
