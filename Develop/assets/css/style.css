@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header nav {  /*div to nav  ?? with just this had bulleted list on nav bar??*/ 
+.header nav {  /*div to nav*/ 
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,7 +32,7 @@ body {
     font-size: 20px;
 }
 
-.header nav ul { /* had bullets in nav bar until I changed these to nav as well.  I now see how confusing it is to have so many div tags*/
+.header nav ul { /* changed these to nav as well*/
     list-style-type: none;
   
 }
@@ -73,8 +73,8 @@ p {  /*moved p tag closer to content class*/
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.content-box { /*tried combining content and section class, made pictures huge, realized those classes I tried to erase were controlling image height; changed # to dot because it is a class then realized all three stylings were redundant and could all be one class name*/
+/*changed # to dot because it is a class then realized all three stylings were redundant and could all be one class name*/
+.content-box { 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -82,7 +82,7 @@ p {  /*moved p tag closer to content class*/
     background-color: #0072bb;
     color: #ffffff;}
 
-.content img {  /*I moved all header and image styling to be with its corresponsing class*/
+.content img {  
     max-height: 200px;
 }
 
@@ -94,45 +94,6 @@ p {  /*moved p tag closer to content class*/
     float: right;
     margin-left: 25px;
 }
-/*.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;  
-} 
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management img { /*moved header and image styling to be with corresponding class
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-} */
 
 .benefits {
     margin-right: 20px;
@@ -145,10 +106,11 @@ p {  /*moved p tag closer to content class*/
     background-color: #2589bd;
 }
 
-.aside {  /*Instead of having identical and separate classes for box heading and images of Lead, Brand, and Cost I made one aside class*/
+.aside {  /*Instead of having separate classes with identical traits, made one aside class*/
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 .aside h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -159,44 +121,6 @@ p {  /*moved p tag closer to content class*/
     margin: 10px auto;
     max-width: 150px;
 }
-
-/*  All this is no longer needed
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-*/
 
 .footer {
     padding: 30px;
