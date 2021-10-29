@@ -1,5 +1,21 @@
 # 01 HTML, CSS, and Git: Code Refactor
 
+**Screenshot**  
+[screenshot](./Develop/_Users_lesliecrouch_bootcamp_homework_homework-1_Develop_index.html.png)
+
+**URL of deplyed web page**
+https://github.com/tripledawg/homework-1/blob/main/Develop/index.html
+
+**Work Completed** 
+Changed <head> name from Website to Horiseon.
+Added Alt tags to images in index and css files. 
+Added Semantic tags to replace div tags. 
+Fixed broken href tag for "Search Engine Optimization" in nav bar.
+Following principle of DRY, streamlined styling code by creating classes called "content-box" and "aside" which replaced several of the individually named classes that had repeated styling properties.  
+
+**Below is the content of the original README doc for the assignment.  I am unclear whether we should include the original directions for graders or not.**
+
+
 ## Your Task
 
 Be sure to review the [Homework Guide](./Homework-Guide/README.md) before you start working on this assignment! This week is an odd-numbered week, so your homework is an on-the-job ticket&mdash;meaning that you'll begin with starter code that you need to modify. 
