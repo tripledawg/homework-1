@@ -3,8 +3,9 @@
 **Screenshot**  
 [screenshot](./Develop/_Users_lesliecrouch_bootcamp_homework_homework-1_Develop_index.html.png)
 
-**URL of deplyed web page**
-https://github.com/tripledawg/homework-1/blob/main/Develop/index.html
+**URL of deployed web page**
+https://tripledawg.github.io/homework-1-refactoring/
+
 
 **Work Completed** 
 Changed <head> name from Website to Horiseon.
